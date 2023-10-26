@@ -7,15 +7,32 @@
     <title>Hydro App</title>
   </head>
   <body>
-    <label for="tokenInput">Enter Token Symbol or Name: </label>
-    <input type="text" id="tokenInput" />
-    <button id="convertButton">Convert</button>
+    <div>
+      <span>
+        <select id="tokenDropdown1">
+          <!-- Populate this dropdown dynamically from api.json -->
+        </select>
+      </span>
+      <span>
+        <input type="number" id="AmountInput" />
+      </span>
+    </div>
     <div id="result"></div>
 
-    <input type="text" id="search" placeholder="Search..." />
-    <select id="tokenDropdown">
-      <!-- Populate this dropdown dynamically from api.json -->
-    </select>
+    <!-- Dropdown 2 -->
+    <div>
+      <span>
+        <select id="tokenDropdown2">
+          <!-- Populate this dropdown dynamically from api.json -->
+        </select>
+      </span>
+      <span>
+        <input type="number" id="AmountOutput" />
+      </span>
+    </div>
+    <div id="result"></div>
+
+    <!-- <button id="convertButton">Convert</button> -->
 
     <script type="module" src="convert.js"></script>
   </body>
