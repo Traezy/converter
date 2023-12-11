@@ -19,6 +19,7 @@
 
 /* Basic styling for the container */
 body {
+  background-image: url(back.JPG);
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   margin: 0;
@@ -37,7 +38,7 @@ button {
   margin: 10px;
 }
 
-input[type='text'] {
+input[type="text"] {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -105,4 +106,13 @@ select:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#AmountInput {
+  border-radius: 2cm;
+  -webkit-border-radius: 2cm;
+  -moz-border-radius: 2cm;
+  -ms-border-radius: 2cm;
+  -o-border-radius: 2cm;
+  height: 2cm;
 }
