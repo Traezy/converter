@@ -1,0 +1,21 @@
+html {
+  background-image: url("https://th.bing.com/th/id/OIP.Linn9hF3YEkWmBXh_u9OYgHaEK?rs=1&pid=ImgDetMain");
+}
+
+input {
+  border-radius: 4cm;
+  margin-top: 2cm;
+  margin-left: 11cm;
+  width: 9cm;
+  height: 2cm;
+}
+
+.sign {
+  color: black;
+  width: 3cm;
+  height: 1.2cm;
+  border-radius: 5cm;
+  background-color: white;
+  justify-content: center;
+  margin-left: 9.9cm;
+}

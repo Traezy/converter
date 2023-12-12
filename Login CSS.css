@@ -1,0 +1,71 @@
+html {
+  display: flex;
+  background-image: url("https://happycoding.io/gallery/music/images/thumbnail.png");
+}
+
+.input {
+  justify-content: center;
+  align-items: center;
+  position: center;
+  padding-left: 13cm;
+  padding-top: 5cm;
+  border-radius: 4cm;
+  -webkit-border-radius: 4cm;
+  -moz-border-radius: 4cm;
+  -ms-border-radius: 4cm;
+
+  width: 3cm;
+  height: 9cm;
+  -o-border-radius: 4cm;
+}
+
+.FirstName {
+  height: 2cm;
+  width: 9cm;
+  border-radius: 4cm;
+  -webkit-border-radius: 4cm;
+  -moz-border-radius: 4cm;
+  -ms-border-radius: 4cm;
+  -o-border-radius: 4cm;
+}
+
+.gmail {
+  height: 2cm;
+  width: 9cm;
+  border-radius: 4cm;
+  -webkit-border-radius: 4cm;
+  -moz-border-radius: 4cm;
+  -ms-border-radius: 4cm;
+  -o-border-radius: 4cm;
+}
+
+.password {
+  height: 2cm;
+  width: 9cm;
+  border-radius: 4cm;
+  -webkit-border-radius: 4cm;
+  -moz-border-radius: 4cm;
+  -ms-border-radius: 4cm;
+  -o-border-radius: 4cm;
+}
+
+.sign {
+  color: black;
+  width: 3cm;
+  height: 1.2cm;
+  border-radius: 5cm;
+  background-color: white;
+  justify-content: center;
+  margin-left: 9.9cm;
+}
+
+button:hover {
+  color: white;
+  transition: width 3cm linear;
+  background-color: black;
+  transition: color 1s linear;
+  -webkit-transition: width 3cm linear;
+  -moz-transition: width 3cm linear;
+  -ms-transition: width 3cm linear;
+  -o-transition: width 3cm linear;
+}
